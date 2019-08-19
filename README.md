@@ -1,2 +1,9 @@
-# blvFfmpegConcat
-bilibili哔哩哔哩(Android)缓存合并
+# B站缓存视频合并工具
+这是一个简易的B站缓存视频合并工具，需要ffmpeg和python3（2我没试过说不定可以）
+
+## 如何使用
+修改`videoPath`为视频缓存的数字文件夹路径（默认直接把程序复制到视频缓存的数字文件夹下运行）
+
+修改`ffmpegPath`为ffmpeg程序路径（配到path了就保持默认就好惹）
+
+直接运行本程序，视频会输出到程序位置的上级目录，如需修改请改`vtitle`
